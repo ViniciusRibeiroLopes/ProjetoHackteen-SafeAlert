@@ -155,5 +155,5 @@ As cores predominantes são **azul escuro** e **amarelo**, com design **minimali
 ## 👨‍💻 Equipe
 
 - Enzo G. Camillo (Desenvolvedor Backend)
-- Kevin Ramos (Design de Logo e Documentação)
+- Kevin Ramos (Designer e Documentação)
 - Vinícius R. Lopes (Desenvolvedor Backend e Documentação)
