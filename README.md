@@ -54,20 +54,36 @@ SafeAlert permite o envio de **alertas em tempo real** para contatos de confian�
 ## 📁 Estrutura de Pastas
 
 ```
-SafeAlert/
+ProjetoHackteen-SafeAlert/
+├── node_modules/
 ├── src/
-│   ├── controllers/
-│   ├── middlewares/
-│   ├── models/
-│   ├── routes/
-│   ├── services/
-│   ├── database/
-│   └── app.js
-├── tests/
+│ ├── config/
+│ │ ├── database.js
+│ │ ├── sequelize.js
+│ │ └── swagger.js
+│ ├── controllers/
+│ │ ├── alertaController.js
+│ │ ├── autenController.js
+│ │ └── controller.js
+│ ├── middleware/
+│ │ └── autenticacao.js
+│ ├── models/
+│ │ ├── alert.js
+│ │ ├── contact.js
+│ │ └── user.js
+│ ├── routes/
+│ │ ├── alertaRoutes.js
+│ │ ├── autenRotas.js
+│ │ └── routes.js
+│ └── testes/
+│ └── auten.test.js
 ├── .env
-├── swagger.yaml
+├── app.js
+├── jest_config.js
+├── package-lock.json
 ├── package.json
-└── README.md
+├── safealert.sqlite
+└── server.js
 ```
 
 ---
@@ -75,16 +91,6 @@ SafeAlert/
 ## 🔒 Autenticação
 
 Utilizamos **JWT (JSON Web Token)** para proteger rotas privadas. O usuário precisa estar autenticado para acessar funcionalidades como alertas e contatos.
-
----
-
-## 📑 Documentação da API
-
-Você pode acessar a documentação completa da API através do Swagger:
-
-```
-http://localhost:3000/api-docs
-```
 
 ---
 
@@ -135,7 +141,7 @@ SafeAlert contribui diretamente com a **redução de riscos**, melhora da **qual
 
 ## 📷 Logotipo
 
-Versões com e sem o nome estão disponíveis na pasta `/assets/logo`.  
+![Logo da startup SafeAlert](https://github.com/user-attachments/assets/ae63537d-6462-48a6-b518-816b379908b7)
 As cores predominantes são **azul escuro** e **amarelo**, com design **minimalista e moderno**.
 
 ---
@@ -148,7 +154,6 @@ As cores predominantes são **azul escuro** e **amarelo**, com design **minimali
 
 ## 👨‍💻 Equipe
 
-- Vinícius (Desenvolvedor Backend, Design de Logo e Documentação)
-- [Nome do membro 2]
-- [Nome do membro 3]
-- [Nome do membro 4, se houver]
+- Enzo G. Camillo (Desenvolvedor Backend)
+- Kevin Ramos (Design de Logo e Documentação)
+- Vinícius R. Lopes (Desenvolvedor Backend e Documentação)
