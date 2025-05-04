@@ -28,7 +28,6 @@ SafeAlert permite o envio de **alertas em tempo real** para contatos de confian�
 ## 🚀 Funcionalidades da API
 
 - ✅ Cadastro e autenticação de usuários (com JWT)
-- ✅ Cadastro e gerenciamento de contatos de emergência
 - ✅ Registro, listagem e consulta de alertas
 - ✅ Consulta de localização dos alertas
 - ✅ Segurança nas rotas privadas com autenticação
@@ -45,9 +44,9 @@ SafeAlert permite o envio de **alertas em tempo real** para contatos de confian�
 - **Bcrypt** – Criptografia de senhas
 - **Swagger** – Documentação interativa da API
 - **Jest** – Testes automatizados
-- **PostgreSQL** ou **MongoDB** – Banco de dados relacional ou NoSQL
-- **Prisma** ou **Mongoose** – ORM/ODM para manipulação dos dados
-- **Insomnia** ou **Postman** – Ferramentas para testar requisições
+- **SQLite** – Banco de dados relacional
+- **Mongoose** – ORM/ODM para manipulação dos dados
+- **Insomnia** – Ferramentas para testar requisições
 
 ---
 
@@ -99,8 +98,8 @@ Utilizamos **JWT (JSON Web Token)** para proteger rotas privadas. O usuário pre
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/seuusuario/SafeAlert.git
-cd SafeAlert
+git clone https://github.com/ViniciusRibeiroLopes/ProjetoHackteen-SafeAlert.git
+cd ProjetoHackteen-SafeAlert
 ```
 
 2. Instale as dependências:
@@ -114,7 +113,6 @@ npm install
 ```env
 PORT=3000
 JWT_SECRET=sua_chave_secreta
-DB_URL=conexao_do_seu_banco
 ```
 
 4. Inicie o servidor:
@@ -142,7 +140,6 @@ SafeAlert contribui diretamente com a **redução de riscos**, melhora da **qual
 ## 📷 Logotipo
 
 ![Logo da startup SafeAlert](https://github.com/user-attachments/assets/ae63537d-6462-48a6-b518-816b379908b7)
-As cores predominantes são **azul escuro** e **amarelo**, com design **minimalista e moderno**.
 
 ---
 
