@@ -5,6 +5,12 @@
 
 ---
 
+### 📷 Vídeo de apresentação
+
+```https://youtu.be/GagfQXKEFX8?si=u1xeWI54DeP7wgsw```
+
+---
+
 ## 🧠 Proposta da Startup
 
 ### 🎯 Problema a ser resolvido
